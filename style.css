@@ -1,3 +1,84 @@
 body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
     
+}
+
+.header-sec{
+    display: flex;
+}
+.header-sec div{
+    width: 50%;
+    display: inline;
+    
+}
+.header-sec img{
+    width: 80%;
+    
+}
+.head-text{
+    margin: 5% 0% 0% 10%;
+}
+.head-title{
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 20px;
+    border-left: 3px solid #30B99EFF;
+    background-color: red;
+    padding: 20px;
+}
+.head-text a{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #30B99EFF;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+.sec-2{
+    margin: 10% 10%;
+}
+.sec-2 h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+
+}
+.box{
+    display: flex;
+}
+.card{
+    width: 33%;
+    margin: 10px 10px;
+    padding: 5px 25px;
+    background-color: rgba(161, 225, 228, 0.938);
+    border-radius: 10px;
+}
+.card img{
+    width: 150px;
+
+}
+footer{
+    text-align: center;
+    background-color: rgb(8, 3, 24);
+    color: white;
+    padding: 20px;
+    line-height: 20px;
+    
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    font-size: 28px;
+
+}
+footer h2 span{
+    color: turquoise;
+}
+footer p{
+    font-size: 10px;
 }
