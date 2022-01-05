@@ -18,15 +18,19 @@ body{
 }
 .head-text{
     margin: 5% 0% 0% 10%;
+    
 }
-.head-title{
+.head-tit{
     font-family: 'Yeseva One', cursive;
     font-size: 30px;
     font-weight: 100;
-    line-height: 20px;
+    line-height: 70px;
+    
+    
+}
+.head-tit h1{
+    padding-left: 20px;
     border-left: 3px solid #30B99EFF;
-    background-color: red;
-    padding: 20px;
 }
 .head-text a{
     padding: 10px 30px;
