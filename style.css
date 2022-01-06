@@ -58,6 +58,7 @@ body{
 
 /* ---------------header section end------------*/
 
+/* ---------------my mission section start------------*/
 .sec-2{
     margin: 10% 10%;
 }
@@ -94,6 +95,8 @@ body{
 #card3{
     background-color: #FFE5FF;
 }
+/* ---------------my mission section end------------*/
+
 /* ---------------develop section start------------*/
 .dev-sec{
     margin: 5% 10%;
