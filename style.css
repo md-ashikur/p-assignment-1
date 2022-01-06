@@ -17,12 +17,10 @@ body{
     
 }
 .head-text{
-    margin: 5% 0% 0% 10%;
+    margin: 10% 0% 0% 10%;
     line-height: 20px;
     
 }
-
-
 .head-tit h1{
     font-weight: 100;
     font-family: 'Yeseva One', cursive;
@@ -31,17 +29,22 @@ body{
     padding-left: 10px;
     margin: 0;
     color: rgb(44, 43, 43);
-    
-   
-   
+     
 }
 .head-tit span{
     color: #30B99EFF;
 }
-.head-text p{
+.para{
     font-size: 14px;
     color: rgb(78, 75, 75);
     padding: 15px 0px;
+    margin-top: -10px;
+}
+.para2{
+    font-size: 14px;
+    color: rgb(78, 75, 75);
+    padding: 20px 0px;
+    
 }
 .head-text a{
     padding: 10px 30px;
@@ -50,13 +53,9 @@ body{
     background-color: #30B99EFF;
     border-radius: 5px;
     font-size: 15px;
+    margin-top: 15%;
 }
-#line{
-    border-left: 3px solid;
-    border-image: linear-gradient(rgb(28, 206, 88), rgb(0, 238, 255));
-    border-image-slice: 1;
-    margin-top: -20px;
-}
+
 /* ---------------header section end------------*/
 
 .sec-2{
@@ -64,10 +63,14 @@ body{
 }
 .sec-2 h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 45px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 900;
+    font-weight: 600;
+    color: rgb(10, 10, 43);
 
+}
+.sec-2 h1 span{
+    color: #30B99EFF;
 }
 .box{
     display: flex;
@@ -75,7 +78,7 @@ body{
 .card{
     width: 33%;
     margin: 10px 10px;
-    padding: 5px 25px;
+    padding: 20px 25px;
     border-radius: 10px;
 }
 .card img{
@@ -101,8 +104,9 @@ body{
     width: 90%;
 }
 .develop-text{
-    margin-top: 5%;
+    margin-top: 4%;
     padding: 0px 20px;
+    color: rgb(51, 51, 51);
 }
 .develop-text h1{
     font-size: 30px;
@@ -111,7 +115,11 @@ body{
     
 
 }
-.develop-text a{
+.develop-text p{
+   margin-bottom: 40px;
+   
+}
+.dev-btn{
     padding: 10px 30px;
     text-decoration: none;
     color: white;
@@ -120,7 +128,7 @@ body{
     font-size: 15px;
 }
 .pic2 img{
-    width: 90%;
+    width: 80%;
     padding-left: 60px;
 
 }
@@ -132,7 +140,7 @@ body{
 #section5{
     display: flex;
     color: white;
-    padding: 10%;
+    padding: 5% 10%;
     background-color: #100028;
 }
 .sec-5-text{
@@ -147,6 +155,10 @@ body{
 }
 .inner-text{
     padding: 15px;
+}
+.inner-text img{
+    width: 70px;
+    
 }
 /* ---------------WHAT WE DO? section end------------*/
 footer{
