@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
     
 }
-
+/* ----------header section start--------- */
 .header-sec{
     display: flex;
 }
@@ -18,19 +18,30 @@ body{
 }
 .head-text{
     margin: 5% 0% 0% 10%;
+    line-height: 20px;
     
 }
-.head-tit{
-    font-family: 'Yeseva One', cursive;
-    font-size: 30px;
-    font-weight: 100;
-    line-height: 70px;
-    
-    
-}
+
+
 .head-tit h1{
-    padding-left: 20px;
-    border-left: 3px solid #30B99EFF;
+    font-weight: 100;
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+    line-height: 70px;
+    padding-left: 10px;
+    margin: 0;
+    color: rgb(44, 43, 43);
+    
+   
+   
+}
+.head-tit span{
+    color: #30B99EFF;
+}
+.head-text p{
+    font-size: 14px;
+    color: rgb(78, 75, 75);
+    padding: 15px 0px;
 }
 .head-text a{
     padding: 10px 30px;
@@ -38,9 +49,15 @@ body{
     color: white;
     background-color: #30B99EFF;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 15px;
 }
-
+#line{
+    border-left: 3px solid;
+    border-image: linear-gradient(rgb(28, 206, 88), rgb(0, 238, 255));
+    border-image-slice: 1;
+    margin-top: -20px;
+}
+/* ---------------header section end------------*/
 
 .sec-2{
     margin: 10% 10%;
@@ -59,13 +76,79 @@ body{
     width: 33%;
     margin: 10px 10px;
     padding: 5px 25px;
-    background-color: rgba(161, 225, 228, 0.938);
     border-radius: 10px;
 }
 .card img{
     width: 150px;
 
 }
+#card1{
+    background-color: #D6F6F6;
+}
+#card2{
+    background-color: #DDFFDD;
+}
+#card3{
+    background-color: #FFE5FF;
+}
+/* ---------------develop section start------------*/
+.dev-sec{
+    margin: 5% 10%;
+    display: flex;
+}
+.develop-pic img{
+    
+    width: 90%;
+}
+.develop-text{
+    margin-top: 5%;
+    padding: 0px 20px;
+}
+.develop-text h1{
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 900;
+    
+
+}
+.develop-text a{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #30B99EFF;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.pic2 img{
+    width: 90%;
+    padding-left: 60px;
+
+}
+
+
+/* ---------------develop section end------------*/
+
+/* ---------------WHAT WE DO? section start------------*/
+#section5{
+    display: flex;
+    color: white;
+    padding: 10%;
+    background-color: #100028;
+}
+.sec-5-text{
+    margin: 0px 20px;
+}
+.sec-5-text a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid turquoise;
+    border-radius: 10px;
+}
+.inner-text{
+    padding: 15px;
+}
+/* ---------------WHAT WE DO? section end------------*/
 footer{
     text-align: center;
     background-color: rgb(8, 3, 24);
